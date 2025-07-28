@@ -1,0 +1,118 @@
+
+     <section className="sobre-nos">
+        <div className="conteudo">
+          <h2>🧠 Sobre a BrainNext</h2>
+          <p className="intro">Na BrainNext, transformamos dados em soluções digitais que geram impacto. Atuamos com:</p>
+          <ul className="valores">
+            <li><strong>📊 Dashboards interativos</strong> </li>
+            <li><strong>💻 Desenvolvimento Web</strong></li>
+            <li><strong>📱 Aplicativos funcionais</strong> </li>
+            <li><strong>🔍 Análise de Dados Estratégica</strong> </li>
+          </ul>
+          <p>Combinamos tecnologia, design e inteligência para ajudar empresas a tomar decisões melhores, automatizar processos e crescer com inovação.</p>
+        </div>
+        </section>
+      <section className="equipe">
+  <h2>👥 Nossa Equipe</h2>
+  <div className="cards">
+    <div className="card">
+      <img src="./josiane.jpg" alt="Josiane Santos" />
+      <h3>Josiane Santos</h3>
+      <h4>Analista de Dados e Desenvolvedora Web</h4>
+      <p>
+        Especialista em Power BI, visualização de dados e criação de experiências digitais funcionais e intuitivas.
+        Atua com foco em performance e resultados baseados em dados reais.
+      </p>
+      <a
+        className="linkedin"
+        href="https://www.linkedin.com/in/josi-santos-mota/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn Josiane"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#0e76a8"
+          viewBox="0 0 24 24"
+        >
+          <path d="M4.98 3.5A2.5 2.5 0 1 1 4.98 8a2.5 2.5 0 0 1 0-4.5zM2 9h6v12H2zm7 0h5.5v1.8c.8-1.3 2.2-2.1 3.7-2.1 3.2 0 4.8 2.1 4.8 5.2V21h-6v-6.1c0-1.3-.5-2.2-1.7-2.2-1 0-1.5.7-1.8 1.3-.1.3-.1.7-.1 1V21H9z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div className="card">
+      <img src="./joao.jpg" alt="João Victor" />
+      <h3>João Victor</h3>
+      <h4>Analista de Dados e Desenvolvedor Web</h4>
+      <p>
+        Especialista em Power BI, visualização de dados e criação de experiências digitais funcionais e intuitivas.
+        Atua com foco em performance e resultados baseados em dados reais.
+      </p>
+      <a
+        className="linkedin"
+        href="https://www.linkedin.com/in/joao-victor-jb/" // Atualize o link se necessário
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn João Victor"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#0e76a8"
+          viewBox="0 0 24 24"
+        >
+          <path d="M4.98 3.5A2.5 2.5 0 1 1 4.98 8a2.5 2.5 0 0 1 0-4.5zM2 9h6v12H2zm7 0h5.5v1.8c.8-1.3 2.2-2.1 3.7-2.1 3.2 0 4.8 2.1 4.8 5.2V21h-6v-6.1c0-1.3-.5-2.2-1.7-2.2-1 0-1.5.7-1.8 1.3-.1.3-.1.7-.1 1V21H9z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+      <section className="faleConosco">
+        <h2>Fale Conosco</h2>
+        <form
+          className="formulario"
+          action="https://formsubmit.co/josiane15santos24@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_redirect" value="http://localhost:5173/sucesso" />
+          <input type="text" name="nome" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <footer className="rodape">
+        <p>© 2025 HoneyPup Studios. Todos os direitos reservados.</p>
+        <div className="icones">
+          <a href="https://www.linkedin.com/company/honeypup-studios/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="#f89c34ff"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5.001zm.02 4.9H2V21h3V8.4zm7-1.4c-1.64 0-3 .8-3 3.1V21h3v-7c0-.83.67-1.5 1.5-1.5S16 13.17 16 14v7h3v-7.5c0-3.31-2.69-6-6-6z" />
+            </svg>
+          </a>
+
+          <a href="https://www.instagram.com/josimoota/" target="_blank" rel="noopener noreferrer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="#491b0eff"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.5.5.2.9.5 1.2.8.3.3.6.7.8 1.2.2.4.4 1 .5 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.5 2.2-.2.5-.5.9-.8 1.2-.3.3-.7.6-1.2.8-.4.2-1 .4-2.2.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.5a3.48 3.48 0 0 1-2-2c-.2-.4-.4-1-.5-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.5-2.2.2-.5.5-.9.8-1.2.3-.3.7-.6 1.2-.8.4-.2 1-.4 2.2-.5C8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7 .1c-1.4.1-2.3.3-3.2.6a5.61 5.61 0 0 0-2.1 1.4A5.61 5.61 0 0 0 .6 4.9c-.3.9-.5 1.8-.6 3.2C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.4.3 2.3.6 3.2a5.61 5.61 0 0 0 1.4 2.1 5.61 5.61 0 0 0 2.1 1.4c.9.3 1.8.5 3.2.6 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.4-.1 2.3-.3 3.2-.6a5.61 5.61 0 0 0 2.1-1.4 5.61 5.61 0 0 0 1.4-2.1c.3-.9.5-1.8.6-3.2.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.4-.3-2.3-.6-3.2a5.61 5.61 0 0 0-1.4-2.1A5.61 5.61 0 0 0 19.1.6c-.9-.3-1.8-.5-3.2-.6C15.3 0 14.9 0 12 0zM12 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+            </svg>
+          </a>
+        </div>
+      </footer> 
